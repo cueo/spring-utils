@@ -11,6 +11,8 @@ repositories {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation "org.aspectj:aspectjweaver:1.9.4"
+    implementation "org.slf4j:slf4j-api:1.7.28"
 }
 
 compileKotlin {
